@@ -19,4 +19,16 @@ paths:
       responses: {}
       operationId: post-comment
 components:
-  schemas: {}
+  schemas:
+    comments:
+      title: comments
+      type: object
+      properties:
+        id:
+          type: string
+        uname:
+          type: string
+        comment:
+          type: string
+        date:
+          type: string
