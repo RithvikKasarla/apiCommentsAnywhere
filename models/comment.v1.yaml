@@ -1,0 +1,15 @@
+title: comment
+type: object
+x-tags:
+  - mockComments
+properties:
+  id:
+    type: string
+  uname:
+    type: string
+  comment:
+    type: string
+  date:
+    type: string
+x-examples:
+  example-1: {}

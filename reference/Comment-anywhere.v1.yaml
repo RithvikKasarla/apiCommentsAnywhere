@@ -1,0 +1,22 @@
+openapi: 3.0.0
+info:
+  title: Comment anywhere
+  version: '1.0'
+servers:
+  - url: 'http://localhost:3000'
+paths:
+  /comment:
+    get:
+      summary: gets comments
+      tags:
+        - mockComments
+      responses: {}
+      operationId: get-comment
+    post:
+      summary: Add comments
+      tags:
+        - mockComments
+      responses: {}
+      operationId: post-comment
+components:
+  schemas: {}
